@@ -11,7 +11,7 @@ const Blog = require('./models/Blog');
 const app = express();
 
 //connect to mongoose
-mongoose.connect('mongodb+srv://sweet14344:sweet14344@cluster0.lysd0.mongodb.net/crudblog?retryWrites=true&w=majority', {
+mongoose.connect('YOUR MONGO URI', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
